@@ -25,3 +25,5 @@ streamlit
 # Local embeddings (optional, free and offline)
 langchain-huggingface
 sentence-transformers
+
+beautifulsoup4
