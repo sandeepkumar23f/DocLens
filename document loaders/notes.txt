@@ -1,0 +1,15 @@
+﻿Generative AI: An Overview
+
+Generative AI is a branch of artificial intelligence that creates new content such as text, images, audio, video, and code. Unlike traditional AI systems that mainly classify or predict, such as deciding whether an email is spam, generative models produce new output based on patterns learned from very large amounts of training data.
+
+Large language models, or LLMs, are the most widely used form of generative AI for text. They are built on an architecture called the transformer, which uses an attention mechanism to decide which earlier words matter most when predicting the next one. During training, the model reads huge collections of text and learns to predict the next token, which is a small piece of a word. When this prediction is repeated many times, the model can write paragraphs, answer questions, and generate code.
+
+Training usually happens in stages. In pretraining, the model learns language and general knowledge from enormous datasets. After that, fine-tuning and feedback from humans teach the model to follow instructions, be helpful, and avoid harmful output. The amount of text a model can consider at one time is called its context window. A larger context window allows longer documents and conversations to be processed in a single request.
+
+Despite their strengths, LLMs have important limitations. They can hallucinate, which means they produce confident but incorrect statements. Their knowledge stops at a training cutoff date, so they may not know recent events. They also have no direct access to private data, such as a company's internal documents, unless that information is provided to them.
+
+Retrieval-Augmented Generation, known as RAG, is a popular way to address these problems. In a RAG system, documents are split into chunks and converted into embeddings, which are lists of numbers that capture meaning. These embeddings are stored in a vector database. When a user asks a question, the system finds the chunks most similar to the question and adds them to the prompt. The model then answers using that retrieved text, which makes answers more accurate and easier to verify.
+
+Developers control model behavior with parameters. Temperature adjusts randomness, where low values give focused and repeatable answers and high values give more creative ones. The max tokens setting limits the length of the reply. Good prompts are specific, give context, and describe the expected format of the answer.
+
+As generative AI spreads, responsible use matters. Users should verify important facts, avoid sharing sensitive data with tools they do not understand, and be transparent when content is produced by AI. Developers should also guard against prompt injection, where untrusted text tries to give the model harmful instructions.
