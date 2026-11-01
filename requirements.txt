@@ -1,0 +1,27 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# LLM providers
+langchain-groq
+langchain-google-genai
+
+# Document loading
+pypdf
+
+# Vector store
+langchain-chroma
+chromadb
+
+# Config and validation
+python-dotenv
+pydantic
+
+# UI (optional)
+streamlit
+
+# Local embeddings (optional, free and offline)
+langchain-huggingface
+sentence-transformers
