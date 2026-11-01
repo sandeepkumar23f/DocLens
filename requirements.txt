@@ -27,3 +27,4 @@ langchain-huggingface
 sentence-transformers
 
 beautifulsoup4
+tiktoken

@@ -13,3 +13,7 @@ Retrieval-Augmented Generation, known as RAG, is a popular way to address these 
 Developers control model behavior with parameters. Temperature adjusts randomness, where low values give focused and repeatable answers and high values give more creative ones. The max tokens setting limits the length of the reply. Good prompts are specific, give context, and describe the expected format of the answer.
 
 As generative AI spreads, responsible use matters. Users should verify important facts, avoid sharing sensitive data with tools they do not understand, and be transparent when content is produced by AI. Developers should also guard against prompt injection, where untrusted text tries to give the model harmful instructions.
+
+Developers control model behavior with parameters. Temperature adjusts randomness, where low values give focused and repeatable answers and high values give more creative ones. The max tokens setting limits the length of the reply. Good prompts are specific, give context, and describe the expected format of the answer.
+
+As generative AI spreads, responsible use matters. Users should verify important facts, avoid sharing sensitive data with tools they do not understand, and be transparent when content is produced by AI. Developers should also guard against prompt injection, where untrusted text tries to give the model harmful instructions.
